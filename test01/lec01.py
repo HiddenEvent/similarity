@@ -31,4 +31,19 @@ print(result)
 #     print(result)
 #
 # print()
-
+# index, sim_sido, sim_sgg, sim_emd, sim_li, changeTitle,se_sido, se_sgg, se_emd
+search_addr = {
+    'RowNum': [],
+    '시도': [],
+    '시군구': [],
+    '읍명동': [],
+    '리': [],
+    '변환여부': [],
+    '시도_오타': [],
+    '시군구_오타': [],
+    '읍명동_오타': [],
+}
+nosearch_addr = {}
+search_addr['RowNum'].append(1)
+search_addr['RowNum'].append(2)
+print(search_addr)
