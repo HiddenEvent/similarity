@@ -77,6 +77,7 @@ for se_index, se_val in enumerate(se_join_list):
     similarList.clear()
     for gijun_index, gijun_val in enumerate(gijun_join_list):
         percentage = similar(gijun_val, se_val)
+        print('처리중 데이터 = ' + str(se_index))
         if percentage == 1.0:
             searchAddr(se_index, gijun_index)
             break
